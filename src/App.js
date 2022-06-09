@@ -9,6 +9,7 @@ import Service from "./components/Service/Service";
 import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         <Resume></Resume>
         <Portfolio></Portfolio>
         <Testimonial></Testimonial>
+        <Contact></Contact>
       </section>
     </>
   );
