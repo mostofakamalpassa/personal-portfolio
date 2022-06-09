@@ -27,7 +27,7 @@ const Service = () => {
                         {" "}
                         <i className="fas fa-palette" />{" "}
                       </div>
-                      <h3>Graphic Design</h3>
+                      <h3>Front-End Developer</h3>
                       <p className="mb-0">
                         Lisque persius interesset his et, in quot quidam persequeris
                         vim, ad mea essent possim iriure.
@@ -50,10 +50,9 @@ const Service = () => {
                   <div className="col-md-6">
                     <div className="featured-box style-3 mb-5">
                       <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-pencil-ruler" />{" "}
+                        <i className="fas fa-pencil-ruler" />
                       </div>
-                      <h3>UI/UX Design</h3>
+                      <h3>Back-End Developer</h3>
                       <p className="mb-0">
                         Lisque persius interesset his et, in quot quidam persequeris
                         vim, ad mea essent possim iriure.
@@ -66,33 +65,7 @@ const Service = () => {
                         {" "}
                         <i className="fas fa-paint-brush" />{" "}
                       </div>
-                      <h3>App Design &amp; Develop</h3>
-                      <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="featured-box style-3 mb-5 mb-md-0">
-                      <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-chart-area" />{" "}
-                      </div>
-                      <h3>Business Analysis</h3>
-                      <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="featured-box style-3 mb-0">
-                      <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-bullhorn" />{" "}
-                      </div>
-                      <h3>SEO Marketing</h3>
+                      <h3>Database Management</h3>
                       <p className="mb-0">
                         Lisque persius interesset his et, in quot quidam persequeris
                         vim, ad mea essent possim iriure.

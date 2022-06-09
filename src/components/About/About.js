@@ -21,14 +21,11 @@ const About = () => {
       <div className="row gy-5">
         <div className="col-lg-7 col-xl-8 text-center text-lg-start">
           <h2 className="text-7 fw-600 mb-3">
-            I'm <span className="text-primary">Simone Olivia,</span> a Web
+            I'm <span className="text-primary">Mostofa kamal,</span> a Web
             Developer
           </h2>
           <p>
-            I help you build brand for your business at an affordable price.
-            Thousands of clients have procured exceptional results while working
-            with our dedicated team. when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book.
+          I am a Full-Stack Web Developer with industry experience building web and mobile applications. I specialize in SQL and have professional experience working with Cascading Style Sheets CSS. I'm also passionate about React Js and have made Some projects using the above technologies, some of which will be available on my Github account. When I'm not working, you can find me doing something creative or playing around with Photoshop
           </p>
           <p>
             Delivering work within time and budget which meets client’s
@@ -40,21 +37,21 @@ const About = () => {
           <div className="ps-lg-4">
             <ul className="list-style-2">
               <li className="">
-                <span className="fw-600 me-2">Name:</span>Simone Olivia
+                <span className="fw-600 me-2">Name:</span>Mostofa kamal
               </li>
               <li className="">
                 <span className="fw-600 me-2">Email:</span>
-                <a href="mailto:chat@simone.com">chat@simone.com</a>
+                <a href="mailto:mostofakamal1990@gmail.com">mostofakamal1990@gmail.com</a>
               </li>
               <li className="">
-                <span className="fw-600 me-2">Age:</span>28
+                <span className="fw-600 me-2">Age:</span>32
               </li>
               <li className="border-0">
-                <span className="fw-600 me-2">From:</span>Los Angeles,
-                California
+                <span className="fw-600 me-2">From:</span>Gazipur, Dhaka,
+                Bangladesh
               </li>
             </ul>
-            <a href="#" className="btn btn-primary rounded-pill">
+            <a href="/assets/Resume_mostofa_kamal.pdf" target="_blank" className="btn btn-primary rounded-pill">
               Download CV
             </a>{" "}
           </div>
@@ -65,19 +62,19 @@ const About = () => {
           <div className="col-6 col-md-3">
             <div className="featured-box text-center">
               <h4 className="text-12 text-muted mb-0">
-                <span className="counter" data-from={0} data-to={10}>
-                  10
+                <span className="counter" data-from={0} data-to={3}>
+                  3
                 </span>
                 +
               </h4>
-              <p className="mb-0">Years Experiance</p>
+              <p className="mb-0">Years Experience</p>
             </div>
           </div>
           <div className="col-6 col-md-3">
             <div className="featured-box text-center">
               <h4 className="text-12 text-muted mb-0">
-                <span className="counter" data-from={0} data-to={250}>
-                  250
+                <span className="counter" data-from={0} data-to={5}>
+                  5
                 </span>
                 +
               </h4>
@@ -87,8 +84,8 @@ const About = () => {
           <div className="col-6 col-md-3">
             <div className="featured-box text-center">
               <h4 className="text-12 text-muted mb-0">
-                <span className="counter" data-from={0} data-to={650}>
-                  650
+                <span className="counter" data-from={0} data-to={10}>
+                  10
                 </span>
                 +
               </h4>
@@ -98,8 +95,8 @@ const About = () => {
           <div className="col-6 col-md-3">
             <div className="featured-box text-center">
               <h4 className="text-12 text-muted mb-0">
-                <span className="counter" data-from={0} data-to={38}>
-                  20
+                <span className="counter" data-from={0} data-to={1}>
+                  1
                 </span>
               </h4>
               <p className="mb-0">Get Awards</p>

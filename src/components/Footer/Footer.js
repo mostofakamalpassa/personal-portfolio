@@ -1,54 +1,52 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <>
-  {/* Footer
+  return (
+    <>
+      {/* Footer
   ============================================= */}
-  <footer id="footer" className="section">
-    <div className="container px-lg-5">
-      <div className="row">
-        <div className="col-lg-6 text-center text-lg-start">
-          <p className="mb-3 mb-lg-0">
-            Copyright © 2021{" "}
-            <a href="#" className="fw-500">
-              Simone
-            </a>
-            . All Rights Reserved.
-          </p>
+      <footer id="footer" className="section">
+        <div className="container px-lg-5">
+          <div className="row">
+            <div className="col-lg-6 text-center text-lg-start">
+              <p className="mb-3 mb-lg-0">
+                Copyright © 2021{" "}
+                <a href="#" className="fw-500">
+                  Mostofa kamal
+                </a>
+                . All Rights Reserved.
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <ul className="nav nav-separator justify-content-center justify-content-lg-end">
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="modal"
+                    data-bs-target="#terms-policy"
+                    href="#"
+                  >
+                    Terms &amp; Policy
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="modal"
+                    data-bs-target="#disclaimer"
+                    href="#"
+                  >
+                    Disclaimer
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="col-lg-6">
-          <ul className="nav nav-separator justify-content-center justify-content-lg-end">
-            <li className="nav-item">
-
-              <a
-                className="nav-link"
-                data-bs-toggle="modal"
-                data-bs-target="#terms-policy"
-                href="#"
-              >
-                Terms &amp; Policy
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                data-bs-toggle="modal"
-                data-bs-target="#disclaimer"
-                href="#"
-              >
-                Disclaimer
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  {/* Footer end */}
-</>
-
-    );
+      </footer>
+      {/* Footer end */}
+    </>
+  );
 };
 
 export default Footer;
