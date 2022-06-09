@@ -1,5 +1,8 @@
 import React from 'react';
-
+import './Navigation.css';
+import { FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 const Navigation = () => {
     return (
         <header id="header" className="sticky-top"> 
@@ -11,10 +14,11 @@ const Navigation = () => {
                 <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
                   <img className="img-fluid rounded-pill d-block" src="images/profile.jpg" title="I'm Simone" alt="" />
                 </span>
-                <h1 className="text-5 text-white text-center mb-0 d-lg-block">Simone Olivia</h1>
+                <h1 className="text-5 text-white text-center mb-0 d-lg-block">Mostofa kamal</h1>
               </a> 
               {/* Logo End */}
-              <div id="header-nav" className="collapse navbar-collapse w-100 my-lg-auto">
+              
+              <div id="header-nav" className="collapse navbar-collapse">
                 <ul className="navbar-nav text-lg-center my-lg-auto py-lg-3">
                   <li className="nav-item"><a className="nav-link smooth-scroll active" href="#home">Home</a></li>
                   <li className="nav-item"><a className="nav-link smooth-scroll" href="#about">About Me</a></li>
@@ -26,13 +30,14 @@ const Navigation = () => {
                 </ul>
               </div>
               <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-                <li className="social-icons-facebook"><a data-bs-toggle="tooltip" title="Facebook" href="http://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                <li className="social-icons-twitter"><a data-bs-toggle="tooltip" title="Twitter" href="http://www.twitter.com/" target="_blank"><i className="fab fa-twitter" /></a></li>
-                <li className="social-icons-dribbble"><a data-bs-toggle="tooltip" title="Dribbble" data-bs-placement="top" href="http://www.dribbble.com/" target="_blank"><i className="fab fa-dribbble" /></a></li>
-                <li className="social-icons-github"><a data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top" href="http://www.google.com/" target="_blank"><i className="fab fa-github" /></a></li>
+                <li className="social-icons-facebook"><a  title="Facebook" href="https://www.facebook.com/mostofakamalpassa" target="_blank"><FaFacebook className='display-6'></FaFacebook></a></li>
+                <li className="social-icons-twitter"><a  title="Github" href="https://github.com/mkpbd" target="_blank"><FaGithub className='display-6 mx-4'></FaGithub></a></li>
+                <li className="social-icons-twitter"><a  title="LinkedIn" href="https://www.linkedin.com/in/mostofa-kamal-6605841b2/" target="_blank"><FaLinkedin className='display-6 mx-5'></FaLinkedin></a></li>
+             
               </ul>
+              </div>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span /><span /><span /></button>
-            </div>
+          
           </nav>
           {/* Navbar End */} 
         </header>

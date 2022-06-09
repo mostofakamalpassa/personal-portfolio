@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import { Row } from "react-bootstrap";
 
 import "./css/style.css";
 import Navigation from "./components/Navigation/Navigation";
@@ -10,6 +8,7 @@ import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -25,6 +24,7 @@ function App() {
         <Testimonial></Testimonial>
         <Contact></Contact>
       </section>
+      <Footer></Footer>
     </>
   );
 }
