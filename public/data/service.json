@@ -1,0 +1,101 @@
+[
+    {
+      "_id": 1,
+      "serviceName": "Medical Health",
+      "serviceItem": [
+        "item 1",
+        "item 2",
+        "item-3",
+        "item-4",
+        "item-5"
+      ],
+      "image1": "/images/projects/accountnacy.png",
+      "image2": "abc.jpg",
+      "image3": "abc.jpg",
+      "image4": "abc.jpg",
+      "liveSite":"https://mkpbd.github.io/emedical/",
+      "gitHub": "https://github.com/mkpbd/emedical",
+      "gitHubServer": ""
+    },
+    {
+        "_id": 2,
+        "serviceName": "York Hospital",
+        "serviceItem": [
+          "item 1",
+          "item 2",
+          "item-3",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/york.png",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg",
+        "liveSite":"https://mkpbd.github.io/york/",
+      "gitHub": "https://github.com/mkpbd/york",
+      "gitHubServer": ""
+      },
+    {
+        "_id": 2,
+        "serviceName": "Accountancy Web app",
+        "serviceItem": [
+          "item 1",
+          "item 2",
+          "item-3",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/accountnacy.png",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg"
+      },
+    {
+        "_id": 2,
+        "serviceName": "Food App",
+        "serviceItem": [
+          "item 1",
+          "item 2",
+          "item-3",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/site-3.png",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg"
+      },
+    {
+        "_id": 2,
+        "serviceName": "Care Warehouse ",
+        "serviceItem": [
+          "item 1",
+          "item 2",
+          "item-3",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/care-warehouse.png",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg"
+      },
+    {
+        "_id": 2,
+        "serviceName": "influancer gar",
+        "serviceItem": [
+          "item 1",
+          "item 2",
+          "item-3",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/influancer-gar.png",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg"
+      }
+
+
+
+  ]

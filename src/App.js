@@ -9,21 +9,21 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./Pages/HomePage/HomePage";
 function App() {
   return (
     <>
+
+    <Routes>
+        <Route to="/" element={<HomePage></HomePage>}></Route>
+    </Routes>
       <section id="main-wrapper">
         <Navigation></Navigation>
+       
       </section>
-      <section id="content" role="main">
-        <Home></Home>
-        <About></About>
-        <Service></Service>
-        <Resume></Resume>
-        <Portfolio></Portfolio>
-        {/* <Testimonial></Testimonial> */}
-        <Contact></Contact>
-      </section>
+      <HomePage></HomePage>
+     
       <Footer></Footer>
     </>
   );

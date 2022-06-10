@@ -90,7 +90,7 @@ const Contact = () => {
             <h2 className="mb-3 text-5 text-uppercase text-center text-md-start">
               Send us a note
             </h2>
-            <form id="contact-form" action="php/mail.php" method="post">
+            <form id="contact-form"  method="post">
               <div className="row g-4">
                 <div className="col-xl-6">
                   <input

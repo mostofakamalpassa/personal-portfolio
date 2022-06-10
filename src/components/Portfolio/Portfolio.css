@@ -1,0 +1,5 @@
+.card-hover:hover{
+    transition: .5s linear ease-in;
+    transform: rotate(2deg);
+    cursor: pointer;
+}
