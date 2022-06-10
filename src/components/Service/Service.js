@@ -1,5 +1,9 @@
 import React from 'react';
-
+import {FaPalette} from 'react-icons/fa'
+import {FaDesktop} from 'react-icons/fa'
+import {FaDatabase} from 'react-icons/fa'
+import {MdSdStorage} from 'react-icons/md'
+import {MdOutlineWeb} from 'react-icons/md'
 const Service = () => {
     return (
         <>
@@ -24,51 +28,45 @@ const Service = () => {
                   <div className="col-md-6">
                     <div className="featured-box style-3 mb-5">
                       <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-palette" />{" "}
+                        <MdOutlineWeb></MdOutlineWeb>
                       </div>
                       <h3>Front-End Developer</h3>
                       <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
+                     I am front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript  users to access and interact with the site or app
                       </p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="featured-box style-3 mb-5">
                       <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-desktop" />
+                      <FaDesktop></FaDesktop>
                       </div>
                       <h3>Web Design</h3>
                       <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
+                      Design any type Web Structure to build an unique design for website. like pixel perfect Design using Bootstrap grid or  tailwind grid
                       </p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="featured-box style-3 mb-5">
                       <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        <i className="fas fa-pencil-ruler" />
+                      <MdSdStorage></MdSdStorage>
                       </div>
                       <h3>Back-End Developer</h3>
                       <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
+                      Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities. I am using Backend Development tools  Express JS, Node Js, Laravel, .NET Core
                       </p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="featured-box style-3 mb-5">
                       <div className="featured-box-icon text-primary bg-white shadow-sm rounded">
-                        {" "}
-                        <i className="fas fa-paint-brush" />{" "}
+                      <FaDatabase></FaDatabase>
+                      
                       </div>
                       <h3>Database Management</h3>
                       <p className="mb-0">
-                        Lisque persius interesset his et, in quot quidam persequeris
-                        vim, ad mea essent possim iriure.
+                      A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system, I am using some tools for database structure  UMD system or Entity Relationship Diagram, also known as ERD, ER Diagram or ER model, is a type of structural diagram for use in database design.
                       </p>
                     </div>
                   </div>
