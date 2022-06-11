@@ -32,8 +32,8 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title>{item.serviceName}</Card.Title>
                   <div>
-                    {item?.serviceItem?.slice(0,3).map(it => (
-                      <p>{it}</p>
+                    {item?.serviceItem?.slice(0,3).map((it, index) => (
+                      <p key={index}>{it}</p>
                     ))}
 
                   </div>
