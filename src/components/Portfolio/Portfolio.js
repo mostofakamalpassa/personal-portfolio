@@ -26,7 +26,7 @@ const Portfolio = () => {
      
       <Row xs={1} md={2} className="g-4">
       {service.map(item => (
-            <Col className='my-3'>
+            <Col className='my-3' key={item._id}>
             <Card className='card-hover'>
               <Card.Img variant="top" src={item?.image1}  alt=""/>
               <Card.Body>

@@ -12,9 +12,10 @@ const Navigation = () => {
               {/* Logo */} 
               <a href="index.html" className="mb-lg-auto mt-lg-4">
                 <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
-                  <img className="img-fluid rounded-pill d-block" src="images/profile.jpg" title="I'm Simone" alt="" />
+                  <img className="img-fluid rounded-pill d-block" src="images/profile.jpg" title="I'm Mostofa kamal" alt="" />
                 </span>
                 <h1 className="text-5 text-white text-center mb-0 d-lg-block">Mostofa kamal</h1>
+                <a className='btn btn-secondary btn-sm mt-3 mx-5' href="assets/Resume_mostofa_kamal.pdf" target="_blink">Download CV</a>
               </a> 
               {/* Logo End */}
               
@@ -25,8 +26,9 @@ const Navigation = () => {
                   <li className="nav-item"><a className="nav-link smooth-scroll" href="#services">What I Do</a></li>
                   <li className="nav-item"><a className="nav-link smooth-scroll" href="#resume">Resume</a></li>
                   <li className="nav-item"><a className="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#testimonial">Testimonial</a></li>
+                  {/* <li className="nav-item"><a className="nav-link smooth-scroll" href="#testimonial">Testimonial</a></li> */}
                   <li className="nav-item"><a className="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#">Blog</a></li>
                 </ul>
               </div>
               <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">

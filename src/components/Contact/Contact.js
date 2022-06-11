@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -33,58 +34,12 @@ const Contact = () => {
               mostofakamal1990@gmail.com
             </p>
             <h2 className="mb-3 text-5 text-uppercase">Follow Me</h2>
-            <ul className="social-icons justify-content-center justify-content-md-start">
-              <li className="social-icons-dribbble">
-                <a
-                  data-bs-toggle="tooltip"
-                  href="http://www.dribbble.com/harnishdesign/"
-                  target="_blank"
-                  title="Dribbble"
-                >
-                  <i className="fab fa-dribbble" />
-                </a>
-              </li>
-              <li className="social-icons-twitter">
-                <a
-                  data-bs-toggle="tooltip"
-                  href="https://twitter.com/harnishdesign/"
-                  target="_blank"
-                  title="Twitter"
-                >
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li className="social-icons-facebook">
-                <a
-                  data-bs-toggle="tooltip"
-                  href="http://www.facebook.com/harnishdesign/"
-                  target="_blank"
-                  title="Facebook"
-                >
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li className="social-icons-google">
-                <a
-                  data-bs-toggle="tooltip"
-                  href="http://www.google.com/"
-                  target="_blank"
-                  title="Google"
-                >
-                  <i className="fab fa-google" />
-                </a>
-              </li>
-              <li className="social-icons-github">
-                <a
-                  data-bs-toggle="tooltip"
-                  href="http://www.github.com/"
-                  target="_blank"
-                  title="GitHub"
-                >
-                  <i className="fab fa-github" />
-                </a>
-              </li>
-            </ul>
+            <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
+                <li className="social-icons-facebook"><a  title="Facebook" href="https://www.facebook.com/mostofakamalpassa" target="_blank"><FaFacebook className='display-6'></FaFacebook></a></li>
+                <li className="social-icons-twitter"><a  title="Github" href="https://github.com/mkpbd" target="_blank"><FaGithub className='display-6 mx-4'></FaGithub></a></li>
+                <li className="social-icons-twitter"><a  title="LinkedIn" href="https://www.linkedin.com/in/mostofa-kamal-6605841b2/" target="_blank"><FaLinkedin className='display-6 mx-5'></FaLinkedin></a></li>
+             
+              </ul>
           </div>
           <div className="col-md-8 col-xl-9 order-0 order-md-1">
             <h2 className="mb-3 text-5 text-uppercase text-center text-md-start">
