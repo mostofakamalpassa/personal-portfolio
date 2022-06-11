@@ -3,13 +3,13 @@
       "_id": 1,
       "serviceName": "Medical Health",
       "serviceItem": [
-        "item 1",
-        "item 2",
-        "item-3",
+        "Medical Health theme make E-medical solution Demo theme for client, doctor information , blog, health news doctor information , contact ",
+        "Used Technology ",
+        "Html, css, javascript, bootstrap 5, jquery, owl carousel etc",
         "item-4",
         "item-5"
       ],
-      "image1": "/images/projects/accountnacy.png",
+      "image1": "/images/projects/health.png",
       "image2": "abc.jpg",
       "image3": "abc.jpg",
       "image4": "abc.jpg",
@@ -21,10 +21,10 @@
         "_id": 2,
         "serviceName": "York Hospital",
         "serviceItem": [
-          "item 1",
-          "item 2",
-          "item-3",
-          "item-4",
+          " Our personalized care to the patient is more focused on dedicated nursing care and specialized doctors' supervision to give better treatment. doctor information, staff information , about, contact, Gallery, Service etc",
+          "Use Technology Used",
+          "Html, css, javascript, Jquery, google Map etc",
+          "",
           "item-5"
         ],
         "image1": "/images/projects/york.png",
@@ -39,46 +39,56 @@
         "_id": 2,
         "serviceName": "Accountancy Web app",
         "serviceItem": [
-          "item 1",
-          "item 2",
-          "item-3",
+          "Accountant Consultancy Features",
+          "Audit, Saving money, HR Consulting, Tax Advisory, Investment, Audience ",
+          "This project use Technology",
+          "React js, React Bootstrap, Firebase Authentication, React Router, React firebase hook, React Toast",
           "item-4",
           "item-5"
         ],
         "image1": "/images/projects/accountnacy.png",
         "image2": "abc.jpg",
         "image3": "abc.jpg",
-        "image4": "abc.jpg"
+        "image4": "abc.jpg",
+        "liveSite":"https://accountant-consultancy.web.app/",
+        "gitHub": "https://github.com/mostofakamalpassa/accountant-consultancy",
+        "gitHubServer": ""
       },
     {
         "_id": 2,
         "serviceName": "Food App",
         "serviceItem": [
-          "item 1",
-          "item 2",
-          "item-3",
-          "item-4",
+          "Food App Features",
+          "Add to card, product api, order page",
+          "Used Technology",
+          "html, css, javascript, api etc",
           "item-5"
         ],
         "image1": "/images/projects/site-3.png",
         "image2": "abc.jpg",
         "image3": "abc.jpg",
-        "image4": "abc.jpg"
+        "image4": "abc.jpg",
+        "liveSite":"https://mkpbd.github.io/york/",
+        "gitHub": "https://github.com/mkpbd/york",
+        "gitHubServer": ""
       },
     {
         "_id": 2,
         "serviceName": "Care Warehouse ",
         "serviceItem": [
-          "item 1",
-          "item 2",
-          "item-3",
+          "Add inventory items, Get all inventory items ,Single inventory items, Update inventory item Delete inventory item  User login show inventor item Login Register Authentication Authorization Email Validation Password Reset Login by Google account or Github Account  Login by Manually",
+          "Technology used",
+          "React jS, React bootstrap , firebase, React firebase hook, React router dom, Toast, React carousel, React spring (animation), firebase hosting, React icon",
           "item-4",
           "item-5"
         ],
         "image1": "/images/projects/care-warehouse.png",
         "image2": "abc.jpg",
         "image3": "abc.jpg",
-        "image4": "abc.jpg"
+        "image4": "abc.jpg",
+        "liveSite":"https://mkpbd.github.io/york/",
+        "gitHub": "https://github.com/mkpbd/york",
+        "gitHubServer": ""
       },
     {
         "_id": 2,
@@ -93,7 +103,10 @@
         "image1": "/images/projects/influancer-gar.png",
         "image2": "abc.jpg",
         "image3": "abc.jpg",
-        "image4": "abc.jpg"
+        "image4": "abc.jpg",
+        "liveSite":"https://mkpbd.github.io/york/",
+        "gitHub": "https://github.com/mkpbd/york",
+        "gitHubServer": ""
       }
 
 

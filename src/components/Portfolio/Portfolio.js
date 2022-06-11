@@ -38,6 +38,11 @@ const Portfolio = () => {
 
                   </div>
               </Card.Body>
+              <Row className='my-2'>
+                <Col>  <a className='btn btn-link btn-lg btn-secondary ms-2 b-block text-light' href={item.gitHub} target="_blink">GitHub</a></Col>
+                <Col>  <a className='btn btn-link btn-success btn-lg btn-secondary ms-2 b-block text-light' href={item.liveSite} target="_blink">Live Site</a></Col>
+                {item?.getHubServer &&  <Col>  <a className='btn btn-link btn-success btn-lg btn-secondary ms-2 b-block text-light' href={item.gitHubServer} target="_blink">Server Site</a></Col>}
+              </Row>
               <Button >Details</Button>
             </Card>
           </Col>
