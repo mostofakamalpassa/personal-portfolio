@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 const Navigation = () => {
 
   const showMenu = () => {
-      document.getElementById('header-nav').classList.add('show')
+      document.getElementById('header-nav').classList.toggle('show')
   }
     return (
         <>
@@ -32,12 +32,13 @@ const Navigation = () => {
               <div id="header-nav" className="collapse navbar-collapse">
                 <ul className="navbar-nav text-lg-center my-lg-auto py-lg-3">
                   <li className="nav-item"><Link to='/' className="nav-link smooth-scroll active">Home</Link></li>
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#about">About Me</a></li>
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#services">What I Do</a></li>
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#resume">Resume</a></li>
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                  <li className="nav-item"><Link className="nav-link smooth-scroll" to="About/#about">About Me</Link></li>
+                  <li className="nav-item"><Link className="nav-link smooth-scroll" to="/testimonial#services">What I Do</Link></li>
+                  <li className="nav-item"><Link className="nav-link smooth-scroll" to="/resume#resume">Resume</Link></li>
+                  {/* <li className="nav-item"><a className="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li> */}
+                  <li className="nav-item"><Link className="nav-link smooth-scroll" to="/portfolios#portfolio">Portfolio</Link></li>
                   {/* <li className="nav-item"><a className="nav-link smooth-scroll" href="#testimonial">Testimonial</a></li> */}
-                  <li className="nav-item"><a className="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                  <li className="nav-item"><Link className="nav-link smooth-scroll" to="/contact/#contact">Contact</Link></li>
                   <li className="nav-item"><Link className="nav-link smooth-scroll" to='/blog'>Blog</Link></li>
                 </ul>
               </div>
