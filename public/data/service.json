@@ -68,8 +68,8 @@
         "image2": "abc.jpg",
         "image3": "abc.jpg",
         "image4": "abc.jpg",
-        "liveSite":"https://mkpbd.github.io/york/",
-        "gitHub": "https://github.com/mkpbd/york",
+        "liveSite":"https://mostofa-lucky-one.netlify.app/",
+        "gitHub": "https://github.com/mostofakamalpassa/foodAPI",
         "gitHubServer": ""
       },
     {
@@ -94,10 +94,10 @@
         "_id": 6,
         "serviceName": "influancer gar",
         "serviceItem": [
-          "item 1",
-          "item 2",
-          "item-3",
-          "item-4",
+         
+          "Home page, product page, signUp page, login page",
+          "Used Technology",
+          "Html 5, Css 3, Bootstrap 5, Javascript",
           "item-5"
         ],
         "image1": "/images/projects/influancer-gar.png",
@@ -105,7 +105,43 @@
         "image3": "abc.jpg",
         "image4": "abc.jpg",
         "liveSite":"https://mkpbd.github.io/york/",
-        "gitHub": "https://github.com/mkpbd/york",
+        "gitHub": "https://github.com/mkpbd/Influencer-gar",
+        "gitHubServer": ""
+      },
+    {
+        "_id":7,
+        "serviceName": "Panda Ecommarce",
+        "serviceItem": [
+        
+          "Banner page, show product page, Product api",
+          "Used Technology",
+          "item-4",
+          "item-5"
+        ],
+        "image1": "/images/projects/panda-ecommarc.jpg",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg",
+        "liveSite":"https://mostofakamalpassa.github.io/panda-ecommarce/",
+        "gitHub": "https://github.com/mostofakamalpassa/panda-ecommarce",
+        "gitHubServer": ""
+      },
+
+    {
+        "_id": 8,
+        "serviceName": "Nike Fashion",
+        "serviceItem": [
+          "Used Technology",
+          "html, css, bootstrap 5, React js, React rout",
+          "Banner, product Api,  Show product ",
+          "item-5"
+        ],
+        "image1": "/images/projects/nike-fasion.jpg",
+        "image2": "abc.jpg",
+        "image3": "abc.jpg",
+        "image4": "abc.jpg",
+        "liveSite":"https://mkp-react-nike.netlify.app/",
+        "gitHub": "https://github.com/mostofakamalpassa/nike-react-bootstrap",
         "gitHubServer": ""
       }
 
