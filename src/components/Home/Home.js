@@ -35,7 +35,7 @@ const Home = () => {
                   <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                     <span className="typed" />
                   </h2>
-                  <p className="text-5 text-light mb-4">Based In the World.</p>
+                  <p className="text-5 text-light mb-4">Based In the Bangladesh.</p>
                   <a
                     href="/assets/Resume_mostofa_kamal_.pdf"
                     target="_blank"

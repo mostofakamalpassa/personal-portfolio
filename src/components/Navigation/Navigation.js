@@ -6,6 +6,10 @@ import { FaGithub } from 'react-icons/fa';
 import{Navbar} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 const Navigation = () => {
+
+  const showMenu = () => {
+      document.getElementById('header-nav').classList.add('show')
+  }
     return (
         <>
            {/* Logo */} 
@@ -44,7 +48,7 @@ const Navigation = () => {
                 <li className="social-icons-twitter"><a  title="LinkedIn" href="https://www.linkedin.com/in/mostofa-kamal-6605841b2/" target="_blank"><FaLinkedin className='display-6 mx-5'></FaLinkedin></a></li>
               </ul>
               </div>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span /><span /><span /></button>
+              <button onClick={showMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span /><span /><span /></button>
             </div>
           </nav>
           {/* Navbar End */} 
