@@ -2,16 +2,32 @@ import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 import useService from '../../hooks/useService';
 import './Portfolio.css'
+import { animated, useSpring } from '@react-spring/web'
 
 const Portfolio = () => {
     const {service } = useService();
 
-    console.log("service", service);
+    // console.log("service", service);
+
+   const animate =  useSpring({
+      from: { x: 0 },
+      to: async animate => {
+        // The `config` prop below is inherited by
+        // both objects in the `to` array.
+        await animate({
+          to: [{ x: 100 }, { x: 0 }],
+          config: { tension: 100 },
+        })
+      },
+    })
+
+
 
     return (
 
 
-  <section id="portfolio" className="section bg-light">
+
+<animated.section id="portfolio" className="section bg-light" style={animate}>
     <div className="container px-lg-5">
       {/* Heading */}
       <div className="position-relative d-flex text-center mb-5">
@@ -56,7 +72,8 @@ const Portfolio = () => {
 
 </Row>
     </div>
-  </section>
+  </animated.section>
+
 
 
     );

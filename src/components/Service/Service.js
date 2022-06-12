@@ -4,12 +4,25 @@ import {FaDesktop} from 'react-icons/fa'
 import {FaDatabase} from 'react-icons/fa'
 import {MdSdStorage} from 'react-icons/md'
 import {MdOutlineWeb} from 'react-icons/md'
+import { animated, useSpring } from '@react-spring/web'
 const Service = () => {
+  const animate =  useSpring({
+    from: { x: 0 },
+    to: async animate => {
+      // The `config` prop below is inherited by
+      // both objects in the `to` array.
+      await animate({
+        to: [{ x: 100 }, { x: 0 }],
+        config: { tension: 100 },
+      })
+    },
+  })
+
     return (
         <>
         {/* Services
           ============================================= */}
-        <section id="services" className="section bg-light">
+        <animated.section id="services" className="section bg-light" style={animate}>
           <div className="container px-lg-5">
             {/* Heading */}
             <div className="position-relative d-flex text-center mb-5">
@@ -74,7 +87,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-        </section>
+        </animated.section>
         {/* Services end */}
       </>
       

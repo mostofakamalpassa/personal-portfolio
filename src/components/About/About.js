@@ -1,11 +1,23 @@
 import React from 'react';
-
+import { animated, useSpring } from '@react-spring/web'
 const About = () => {
+  const animate =  useSpring({
+    from: { x: 0 },
+    to: async animate => {
+      // The `config` prop below is inherited by
+      // both objects in the `to` array.
+      await animate({
+        to: [{ x: 100 }, { x: 0 }],
+        config: { tension: 100 },
+      })
+    },
+  })
+
     return (
         <>
   {/* About
     ============================================= */}
-  <section id="about" className="section">
+  <animated.section id="about" className="section" style={animate}>
     <div className="container px-lg-5">
       {/* Heading */}
       <div className="position-relative d-flex text-center mb-5">
@@ -105,7 +117,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  </section>
+  </animated.section>
   {/* About end */}
 </>
 
