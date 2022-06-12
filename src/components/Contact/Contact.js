@@ -1,7 +1,30 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify";
+
 
 const Contact = () => {
+  const { register, handleSubmit,formState: { errors } } = useForm();
+  const onSubmit = data =>{
+    console.log(data);
+
+    if(data?.email || data.message || data.name){
+      emailjs.send('service_m6me5n8','template_2naqll3', data, 'eLBIxzJ4VUJ7NEJQ9')
+      .then((response) => {
+         console.log('SUCCESS!', response.status, response.text);
+         toast.success( "Your Message has been send now")
+      }, (err) => {
+        toast.success( err)
+      });
+    }
+
+   
+
+
+    console.log("Errors", errors)
+  } 
   return (
     <section id="contact" className="section bg-light">
       <div className="container px-lg-5">
@@ -45,35 +68,38 @@ const Contact = () => {
             <h2 className="mb-3 text-5 text-uppercase text-center text-md-start">
               Send us a note
             </h2>
-            <form id="contact-form"  method="post">
+            <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
               <div className="row g-4">
                 <div className="col-xl-6">
                   <input
-                    name="name"
+                    {...register('name',{required:true})}
                     type="text"
                     className="form-control"
                     required=""
                     placeholder="Name"
                   />
+                   {errors?.name?.type === 'required' && <p className='text-danger'>Name is required</p>}
                 </div>
+               
                 <div className="col-xl-6">
                   <input
-                    name="email"
+                   {...register('email',{required:true})}
                     type="email"
                     className="form-control"
-                    required=""
                     placeholder="Email"
                   />
+                    {errors?.email?.type === 'required' && <p className="text-danger">Email is required</p>}
                 </div>
                 <div className="col">
                   <textarea
-                    name="form-message"
+                    {...register('message',{required:true})}
                     className="form-control"
                     rows={5}
                     required=""
                     placeholder="Tell us more about your needs........"
                     defaultValue={""}
                   />
+                   {errors?.message?.type === 'required' && <p className="text-danger">Message is required</p>}
                 </div>
               </div>
               <p className="text-center mt-4 mb-0">

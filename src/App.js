@@ -11,20 +11,29 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import BlogPage from "./Pages/BlogPage";
+import NotFound from "./Pages/NotFound";
 function App() {
   return (
     <>
-
-    <Routes>
-        <Route to="/" element={<HomePage></HomePage>}></Route>
-    </Routes>
-      <section id="main-wrapper">
+     <section id="main-wrapper">
         <Navigation></Navigation>
        
       </section>
-      <HomePage></HomePage>
+    <Routes>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
+        <Route path='/blog' element={<BlogPage></BlogPage>}></Route>
+        
+        <Route path='/*' element={<NotFound></NotFound>}></Route>
+    </Routes>
+ 
+      {/* <HomePage></HomePage> */}
      
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
+      
     </>
   );
 }
