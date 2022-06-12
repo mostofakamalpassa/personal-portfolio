@@ -31,7 +31,7 @@ const Portfolio = () => {
     <div className="container px-lg-5">
       {/* Heading */}
       <div className="position-relative d-flex text-center mb-5">
-        <h2 className="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">
+        <h2 className="text-24 text-dark opacity-2 text-uppercase fw-600 w-100 mb-0">
           Portfolio
         </h2>
         <p className="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">
